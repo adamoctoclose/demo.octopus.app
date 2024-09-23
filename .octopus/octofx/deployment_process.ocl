@@ -20,7 +20,7 @@ step "approve-production-release" {
 }
 
 step "deploy-database-changes" {
-    name = "Deploy Database Changes"
+    name = "Deploy Database Change"
 
     action {
         action_type = "Octopus.Script"
